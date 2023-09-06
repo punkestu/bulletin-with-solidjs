@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.markdown h1 {
+    @apply font-black text-2xl
+}
+.markdown h2 {
+    @apply font-black text-xl
+}
+.markdown h3 {
+    @apply font-black text-lg
+}
+.markdown h4 {
+    @apply font-bold
+}
+.markdown h5 {
+    @apply font-bold text-sm
+}

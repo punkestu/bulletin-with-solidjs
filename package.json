@@ -1,0 +1,22 @@
+{
+  "name": "bulletin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.8.3",
+    "solid-js": "^1.7.8",
+    "solid-markdown": "^1.2.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
